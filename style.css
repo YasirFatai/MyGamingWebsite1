@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(117, 181, 224);
+}
+
+.header{
+    background-image: url(header.png);
+    background-size: cover;
+    min-height: 150vh;
+    width: 100%;
+    background-position: center;
+    position: relative;
+}
+
+nav img{
+    width: 80px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: -2px;
+}
+
+.navlinks li{
+    display: inline-flex;
+    padding: 20px;
+    margin-left: 10%;
+}
+nav a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(236, 12, 12);
+    margin: 8px;
+    padding-bottom: 8%;
+}
+
+.welcome p{
+    color: rgb(230, 19, 19);
+    font-size: x-large;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+footer{
+    color: black;
+    text-align: center;
+    padding: 5%;
+    font-size: larger;
+}
